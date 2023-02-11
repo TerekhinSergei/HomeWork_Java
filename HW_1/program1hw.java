@@ -8,8 +8,7 @@ public class program1hw {
         System.out.print("Введите любое целое число : ");
 		Scanner scan = new Scanner(System.in);
 		int num = scan.nextInt();
-		System.out.println ("Вы ввели число " + num);
-
+		
         int snum = 1;
         int fakt = 1;
         for (int i = 2; i <= num; i++){
@@ -17,7 +16,7 @@ public class program1hw {
             fakt = fakt*i;  
             }    
          
-        System.out.println ("Вы ввели число " + num);
+        System.out.println ("Введенное число " + num);
         System.out.println ("n-ое треугольного число = " + snum);
         System.out.println ("факториал = " + fakt);
     }
