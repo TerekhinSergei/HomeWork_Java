@@ -17,7 +17,7 @@ public class program51hw {
         phoneBook.put("Сергеев", List.of("8 (915) 600-70-80", "8 (909) 992-29-99"));
         phoneBook.put("Мухин", List.of("8 (915) 777-03-06", "8 (909) 800-25-52"));
         phoneBook.put("Васин", List.of("8 (905) 505-15-51"));
-        
+
         boolean flag = true;
         System.out.print(
                 "Введите команду из списка:" +"\n"+
@@ -100,4 +100,5 @@ public class program51hw {
         System.out.println(phoneBook);
         System.out.print("> ");
     }
+    
 }
