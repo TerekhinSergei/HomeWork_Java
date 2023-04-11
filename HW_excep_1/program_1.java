@@ -6,9 +6,9 @@ public class program_1 {
         // чтобы увидеть вывод исключения необходимо оставить только один из методов
         // остальные закомментировать 
         System.out.println("Результат работы метода:");
-        // divisionByZero(100, array);
+        divisionByZero(100, array);
         printValueOfArray(array,6);                       
-        //printStringArray(array); 
+        printStringArray(array); 
     }
 
     // divisionByZero
