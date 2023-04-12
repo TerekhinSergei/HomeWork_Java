@@ -11,8 +11,8 @@ public class program_21 {
         Scanner scan = new Scanner(System.in);
         while(!stop){
             System.out.print("Введите дробное число: ");
-            try {				
-				float num = Float.parseFloat(scan.nextLine());				
+            try {
+                float num = Float.parseFloat(scan.nextLine());				
                 System.out.println("Вы ввели число " + num);
                 stop = true;
             } catch (NumberFormatException e) {                
