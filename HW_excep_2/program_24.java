@@ -12,7 +12,7 @@ public class program_24 {
             if (str.length() > 0) {
             System.out.println("Вы ввели строку: " + str);                
             } else {               
-              	throw new Exception	(); 
+              	throw new RuntimeException ("Вы ничего не ввели. Ввод обязателен!"); 
             }
         } catch (Exception e) {                
             System.out.println("Вы ничего не ввели. Ввод обязателен!");            
